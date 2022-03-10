@@ -3,7 +3,7 @@
 之前接到了一个任务，是分割出城市中的垃圾堆场，遂寻找到了 [UrbanAtlas 2012 database](https://ieee-dataport.org/competitions/data-fusion-contest-2022-dfc2022) 这个数据集和对应的 [baseline](https://github.com/isaaccorley/dfc2022-baseline)。
 
 <p align="center">
-    <img src="./imgs/result.tif" width="800">
+    <img src="./imgs/res.png" width="800">
 </p>
 
 ## baseline
@@ -94,9 +94,9 @@ Average IoU: 0.2884
 因为我发现类别交界处存在着标注不准确的问题，且推理结果也显示边界处容易出错，遂将边界处视为难例进行额外惩罚，惩罚措施很简单，将损失乘以 1.1。
 
 <p align="center">
-    <img src="./imgs/result (2).tif" width="400">
-    <img src="./imgs/result (1).tif" width="400">
+    <img src="./imgs/compare.png" width="800">
 </p>
+
 
 ```log
 +---------------+-------+-------+

@@ -1,0 +1,3 @@
+- `cross_entropy_loss.py`，类别过度区域检测和难例挖掘
+- `dfc.py` 自定义数据集
+- `seg.py` 检测的配置文件
